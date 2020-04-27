@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery.js"></script>
+
+    <script src="weather.js"></script>
+</head>
+
+<body>
+
+    <input type="text" id="city"></input>
+    <button id="search">Search</button>
+
+    <div class="container">
+        <h2 class="cityName"> <span id="dataCity"></span> <img id="dataIcon"></img></h2>
+        <div class="temp">Temperature: <span id="dataTemp"></span></div>
+        <div class="humidity">Humidity: <span id="dataHumidity"></span></div>
+        <div class="windSpeed">Wind Speed: <span id="dataSpeed"></span> </div>
+        <div class="uvIndex">UV Index: <span id="dataUv"></span></div>
+    </div>
+    
+
+</body> 
+
+</html>
